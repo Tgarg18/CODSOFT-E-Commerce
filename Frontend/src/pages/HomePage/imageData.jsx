@@ -1,0 +1,43 @@
+
+import img1 from '../../assets/homePage/img1.jpg'
+import img2 from '../../assets/homePage/img2.jpg'
+import img3 from '../../assets/homePage/img3.png'
+import img4 from '../../assets/homePage/img4.png'
+import img5 from '../../assets/homePage/img5.png'
+
+
+const imageData=[
+    {
+        src:img1,
+        dataHead:"Gold Design",
+        dataDesc:"Gold never Gets Old Get Best Quality Gold jewellery",
+        search:"gold"
+    },
+    {
+        src:img2,
+        dataHead:"Blue Sapphire",
+        dataDesc:"Best Gems fitted in rings",
+        search:"sapphire ring"
+    },
+    {
+        src:img3,
+        dataHead:"Earrings",
+        dataDesc:"Different and unique designs",
+        search:"earring"
+    },
+    {
+        src:img4,
+        dataHead:"Diamond Jewellery",
+        dataDesc:"Diamond never gets old get latest designs",
+        search:"diamond"
+    },
+    {
+        src:img5,
+        dataHead:"Bracelets",
+        dataDesc:"Special collection of bracelets only at GemAura",
+        search:"bracelets"
+    },
+]
+
+
+export default imageData
